@@ -19,8 +19,7 @@
       "android": {
         "buildType": "apk",
         "gradleCommand": ":app:assembleRelease",
-        "image": "ubuntu-18.04-android-30-ndk-r19c",
-        "proguard": true
+        "image": "ubuntu-22.04-jdk-17-ndk-r26b"
       },
       "env": {
         "EXPO_ANDROID_EXTRA_GRADLE_PROPERTIES": "android.enableR8.fullMode=true\norg.gradle.jvmargs=-Xmx2048m"
