@@ -1,50 +1,80 @@
-# Welcome to your Expo app 👋
+# DrinkMe - Your Personal Hydration Companion 💧
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+![Water Bottle](https://img.shields.io/badge/Hydration-Tracker-38bdf8)
+![React Native](https://img.shields.io/badge/React_Native-App-61dafb)
+![Expo](https://img.shields.io/badge/Expo-Project-000020)
 
-## Get started
+DrinkMe is a beautiful, intuitive hydration tracking app that helps you stay refreshed and healthy throughout your day.
 
-1. Install dependencies
+## ✨ Features
+
+- **Personalized Hydration Goals** - Get a custom water intake plan based on your body metrics
+- **Beautiful Water Animations** - Enjoy delightful visual feedback as you track your progress
+- **Daily History & Stats** - View your hydration patterns with intuitive charts and graphs
+- **Smart Reminders** - Receive gentle notifications to keep sipping throughout the day
+- **Streamlined Onboarding** - Quick and easy setup to get you hydrating in no time
+
+## 🚀 Getting Started
+
+1. **Install dependencies**
 
    ```bash
    npm install
    ```
 
-2. Start the app
+2. **Start the app**
 
    ```bash
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+In the output, you'll find options to open the app in a:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Development build](https://docs.expo.dev/develop/development-builds/introduction/)
 - [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
 - [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- [Expo Go](https://expo.dev/go), a convenient way to test your app on a physical device
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 📱 App Preview
 
-## Get a fresh project
+DrinkMe features a beautiful UI with:
 
-When you're ready, run:
+- Animated water bottle visualization
+- Clean, modern interface with gradient accents
+- Intuitive tracking of your daily water intake
+- Detailed history view with progress indicators
 
-```bash
-npm run reset-project
-```
+## 🔧 Tech Stack
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+- **React Native** - Core framework
+- **Expo** - Development platform
+- **React Navigation** - Screen navigation
+- **Linear Gradient** - Beautiful color transitions
+- **AsyncStorage** - Local data persistence
+- **SVG & Animations** - Delightful user interactions
 
-## Learn more
+## 📝 Development Notes
 
-To learn more about developing your project with Expo, look at the following resources:
+The app uses a file-based routing structure in the **app** directory, following Expo Router conventions. Key screens include:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- **home.tsx** - Main dashboard for tracking daily intake
+- **history.tsx** - Visualization of past hydration records
+- **finishonboarding.tsx** - Setup flow with personalized hydration goals
 
-## Join the community
+## 📚 Learn More
 
-Join our community of developers creating universal apps.
+- [Expo documentation](https://docs.expo.dev/) - Explore guides and API references
+- [React Native docs](https://reactnative.dev/) - Learn about React Native development
+- [File-based routing](https://docs.expo.dev/router/introduction) - Understand how navigation works in this app
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 🤝 Contributing
+
+Feel free to submit issues or pull requests if you have ideas for improvements!
+
+## 📄 License
+
+This project is available for personal use and learning purposes.
+
+---
+
+Stay hydrated! 💦
